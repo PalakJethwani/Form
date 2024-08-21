@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<HTML>
+    <Head>
+        <TITLE>
+            JavaScript Validation Form
+        </TITLE>
+        <link rel="stylesheet" href="style.css">
+    </Head>
+    <Body>
+        <div class="container">
+            <form id="form" action="\">
+                <h1>Registration Form</h1>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" placeholder="username"><br>
+                <span id="usernameError" class="error"></span><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="email"><br>
+                <span id="emailError" class="error"></span><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" class="long-input" placeholder="Password"><br>
+                <span id="passwordError" class="error"></span><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+            
+        </div>
+        <script src="validation.js"></script>
+    </Body>
+    
+</HTML>

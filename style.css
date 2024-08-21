@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("Capture.PNG");
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-style: italic;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #0074d9;
+    margin-bottom: 20px;
+    margin-top:50px;
+
+}
+
+label,input{
+    display:block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"]{
+    width: 100%;
+    padding:5px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+input[type="submit"]{
+    background-color: #1f4172;
+    color: #Fff;
+    padding: auto;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-attachment: #0056b3;
+}
+
+.long-input{
+    width: 400px;
+}
+
+.error{
+    color: white;
+}
